@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{multirow}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\begin{document}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Modelo & N minima para e^x & Error del programa & N minima para $\frac{4}{1+x^2}$ & Error del programa \\
+\hline
+Rectangulo & 13592 & 6.32085e-05 & 12991 & 7.69754e-05 \\ 
+\hline
+Trapecio & 48 & 6.21481e-05 & 82 & 2.47868e-05 \\ 
+\hline
+Simpson & 13592 & 3.70135e-05 & 4 & 1.51131e-07 \\ 
+\hline
+\end{tabular}
+\end{document}
