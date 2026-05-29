@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{multirow}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\begin{document}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{2}{*}{n} & \multicolumn{3}{|c|}{$Ratio:\displaystyle\frac{\abs{\pi_{n+1}-\pi_{n}}}{({\pi_{n}-\pi_{n-1}})^p}$} \\
+\cline{2-4}
+ & $p=1$ & $p=2$ & $p=\Phi$ \\
+\hline
+ 1 & 0.0425 & 2.1172 & 0.4756 \\ 
+  2 & 0.0001 & 0.1507 & 0.0101 \\ 
+  3 & 0.0000 & 2.1931 & 0.0048 \\ 
+ \hline 
+\end{tabular}
+\end{document}
