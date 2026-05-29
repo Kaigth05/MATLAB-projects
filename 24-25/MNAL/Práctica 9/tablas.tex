@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{tabularx}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\begin{document}
+\begin{tabularx}{400pt}{c|c|c|c|c}
+ $n$ & $pa=lu(A_n)(t)$ & $jacobi(A_n)(t)$ & $g-seidel(A_n)(t)$ & $MatLab(A_n)(t)$ \\
+\hline
+10 & 3.776000e-03 & 5.668000e-03 & 3.300000e-03 & 6.100000e-05 \\
+ \hline 
+20 & 2.590000e-04 & 6.420000e-03 & 4.531000e-03 & 8.700000e-05 \\
+ \hline 
+50 & 1.966000e-03 & 1.490600e-02 & 4.613000e-03 & 1.310000e-04 \\
+ \hline 
+100 & 1.310900e-02 & 1.888200e-02 & 5.042000e-03 & 1.590000e-04 \\
+ \hline 
+200 & 1.709370e-01 & 3.155500e-02 & 1.051100e-02 & 5.360000e-04 \\
+ \hline 
+500 & 1.575129e+01 & 8.459600e-02 & 2.653900e-02 & 2.590000e-03 \\
+ \hline 
+1000 & 2.570945e+02 & 2.953530e-01 & 8.857000e-02 & 1.283100e-02 \\
+ \hline 
+2000 & ... & 2.131995e+00 & 6.837230e-01 & 6.632300e-02 \\
+\hline 
+\end{tabularx}
+\end{document}
